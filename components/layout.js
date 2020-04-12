@@ -8,9 +8,9 @@ function Layout({ children }) {
         <title>Sample</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Navigation />
+      {/* <Navigation /> */}
       <main>{children}</main>
-      <footer>copyright 2020</footer>
+      {/* <footer>copyright 2020</footer> */}
     </div>
   )
 }
